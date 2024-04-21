@@ -1,18 +1,17 @@
-/* Reset default margin and padding */
+
 body, html {
     margin: 0;
     padding: 0;
     height: 100%;
 }
 
-/* Basic styling */
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background-image: url('pexels-jplenio-1103970.jpg'); /* Specify the path to your background image */
-    background-size: cover; /* Cover the entire viewport */
-    background-repeat: no-repeat; /* Do not repeat the background image */
-    background-attachment: fixed; /* Fixed background position */
+    background-image: url('pexels-jplenio-1103970.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
     background-color: #fff;
     color: #333;
     display: flex;
@@ -28,7 +27,6 @@ header h1 {
     text-align: center;
 }
 
-/* Example of a fadeInDown animation */
 @keyframes fadeInDown {
     0% {
         opacity: 0;
@@ -60,8 +58,8 @@ nav ul li a {
     transition: transform 0.2s ease-in-out, color 0.5s ease-in-out;
 }
 nav ul li a:hover {
-    transform: scale(108%); /* Apply hover effect: move link up by 3px */
-    color: #ffd700; /* Change text color to gold when hovered */
+    transform: scale(108%); 
+    color: #ffd700; 
 }
 
 .main-content {
@@ -73,16 +71,16 @@ nav ul li a:hover {
 }
 
 footer {
-    background-color: #333; /* Dark background color for footer */
-    color: #fff; /* Text color for footer */
-    text-align: center; /* Center-align text in footer */
-    padding: 20px; /* Add padding inside footer */
-    margin-top: auto; /* Push footer to bottom of viewport */
-    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+    background-color: #333; 
+    color: #fff; 
+    text-align: center; 
+    padding: 20px; 
+    margin-top: auto; 
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1); 
 }
 
 footer p {
-    font-size: 14px; /* Font size for footer text */
+    font-size: 14px; 
 }
 body.about-page {
     background-color: #e9ecef;
@@ -101,18 +99,18 @@ header.about-page {
 }
 
 .about-text {
-    width: 60%; /* Set width for text content */
+    width: 60%; 
 }
 
 .about-image {
-    width: 35%; /* Set width for image */
-    text-align: right; /* Align image to the right */
+    width: 35%; 
+    text-align: right; 
 }
 
 .about-image img {
-    max-width: 100%; /* Ensure image does not exceed container width */
-    height: auto; /* Maintain aspect ratio */
-    border-radius: 8px; /* Rounded corners for image */
+    max-width: 100%; 
+    height: auto;
+    border-radius: 8px; 
 }
 .contact-form {
     background-color: #fff;
@@ -157,7 +155,6 @@ header.about-page {
 }
 
 @media only screen and (max-width: 768px) {
-    /* Adjust layout for smaller screens */
     header {
         padding: 15px 0;
     }
